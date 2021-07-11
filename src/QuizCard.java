@@ -1,5 +1,7 @@
-public class QuizCard {
-    QuizCard
+import java.io.Serializable;
+import java.util.ArrayList;
+
+public class QuizCard implements Serializable {
     private String question;
     private  String answer;
 
